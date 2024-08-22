@@ -69,6 +69,40 @@ body {
   padding: 15px;
   margin: 5px;
 }
+.project{
+  margin-bottom: 10px;
+  display: block;
+  width: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 10rem;
+  background-color: rgb(49, 131, 255);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.project:hover{
+  color: black;
+  box-shadow: 10px 10px 5px lightblue;
+  cursor: pointer;
+}
+#project{
+  color: tomato;
+  padding: 10px;
+  border-color: dimgrey;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  display: none;
+}
 .who {
   margin-bottom: 10px;
   display: block;

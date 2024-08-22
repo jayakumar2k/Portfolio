@@ -15,3 +15,7 @@ function show3(){
     var details=document.getElementById("details")
     .style.display="block"
 }
+function show4(){
+    var project=document.getElementById("project")
+    .style.display="block"
+}
